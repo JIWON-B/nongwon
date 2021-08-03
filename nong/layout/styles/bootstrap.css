@@ -49,7 +49,7 @@ div.wrapper{display:block; width:100%; margin:0; text-align:left;}
 
 /* ----------------------------------------------TopBar------------------------------------- */
 
-#topbar{height:40px; padding-top:20px;}
+#topbar{height:60px; padding-top:20px;}
 #topbar ul{margin:0; padding:0; list-style:none;}
 #topbar #social{display:block; float:right;}
 #topbar #social li{display:inline; margin-left:20px; cursor:pointer;}
@@ -204,5 +204,20 @@ body {
   border-radius: 50%;
   content: '';
 }
+
+
+
+  table {
+    border-spacing: 20px;
+  }
+
+  @media print {
+
+  }
+  * {
+            box-sizing: border-box;
+  }
+
+
 
 
